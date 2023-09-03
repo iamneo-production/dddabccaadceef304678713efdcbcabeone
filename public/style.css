@@ -12,7 +12,7 @@ body {
 /* Enter your styling here */
 h1{
   text-align:center;
-  color:#
+  color:#fff;
 display:flex;
 flex-direction:column;
 align-items:center;
@@ -58,5 +58,25 @@ cursor:pointer;
 }
 .result-text{
   color:#fff;
-  text-shadow: 1px 1px 2px 
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  font-size:25px;
+}
+{
+  text-align center;
+}
+.reset-btn{
+  border:2px solid #000;
+  background-color:#000;
+  color:#fff;
+  cursor:pointer;
+  font-weight:bold;
+  padding:5px 10px;
+  font-size:20px;
+  
+  transition:background-color 0.3s,color 0.3s;
+
+}
+.reset-btn:hover{
+  background-color:#fff;
+  color:#000;
 }
