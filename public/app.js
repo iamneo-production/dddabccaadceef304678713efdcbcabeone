@@ -15,16 +15,10 @@ let conditions = [
 ];
 
 // Function to handle player moves
-const ticTacToe = (element, index) => {
-    // Your game logic here
-const restBoard=()=>{
-    for (let i=0;i<9;i++){
-        board[i]=";
-    }
-    currentPlayer='X';
-}
+
     /*
     **Part 1: Winning Conditions (Add your code here)**
+    
 
     1. Implement the logic to check for winning conditions using the 'conditions' array.
     2. Display a winning message in the 'result' element when a player wins.
