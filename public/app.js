@@ -18,7 +18,7 @@ let conditions = [
 
     /*
     **Part 1: Winning Conditions (Add your code here)**
-    
+
 
     1. Implement the logic to check for winning conditions using the 'conditions' array.
     2. Display a winning message in the 'result' element when a player wins.
@@ -33,7 +33,7 @@ let conditions = [
 
     // Your code to handle button and cell interactions
     // ...
-};
+;
 
     /*
     **Part 2: Reset Function (Add your code here)**
@@ -43,6 +43,12 @@ let conditions = [
     3. Update the 'result' element to indicate the current player's turn.
     4. Re-enable all buttons for a new game.
     */
+   const restBoard=()=>{
+    for(let i=0;i<9;i++){
+        board[i]="";
+    }
+    currentPlayer='X';
+   }
 
 // Function to reset the game
 const resetGame = () => {
