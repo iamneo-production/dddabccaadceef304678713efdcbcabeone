@@ -17,7 +17,12 @@ let conditions = [
 // Function to handle player moves
 const ticTacToe = (element, index) => {
     // Your game logic here
-
+const restBoard=()=>{
+    for (let i=0;i<9;i++){
+        board[i]=";
+    }
+    currentPlayer='X';
+}
     /*
     **Part 1: Winning Conditions (Add your code here)**
 
